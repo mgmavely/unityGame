@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         coins += 1;
         Debug.Log(coins);
 	}
+   public void negCol()
+    {
+        coins -= 1;
+        Debug.Log(coins);
+    }
     public bool Pass ()
 	{
         if (coins == coinsLim)

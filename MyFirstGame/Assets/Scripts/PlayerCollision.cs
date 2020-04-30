@@ -17,5 +17,9 @@ public class PlayerCollision : MonoBehaviour
         {
             movement.isGrounded = true;
         }
+        else if (collisionInfo.collider.tag == "Player")
+		{
+            movement.enabled = false;
+		}
     }
 }
