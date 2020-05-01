@@ -1612,17 +1612,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1397614391}
-        m_MethodName: creditsMusic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &957506234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2679,7 +2668,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3873391714990104813}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 3873391714990104814}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b00ab28773fc4828be489e16846da9a, type: 3}
@@ -3295,6 +3284,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4820e966ae8a24c3b9260fb1343ba7d7, type: 3}
+--- !u!1 &3873391714990104814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3873391716415285231, guid: 4820e966ae8a24c3b9260fb1343ba7d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3873391714990104813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3873391714990104815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873391714990104814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838bf19611fe14ec59c7a2469b91fa0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9182228907382219704
 PrefabInstance:
   m_ObjectHideFlags: 0
