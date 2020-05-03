@@ -8,6 +8,7 @@ TagManager:
   - FX
   - Ground
   - Clickable
+  - clickWall
   layers:
   - Default
   - TransparentFX

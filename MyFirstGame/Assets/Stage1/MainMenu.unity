@@ -9208,7 +9208,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1692464432}
   m_HandleRect: {fileID: 2107001028}
   m_Direction: 0
-  m_MinValue: -30
+  m_MinValue: -80
   m_MaxValue: 10
   m_WholeNumbers: 0
   m_Value: 0
@@ -10325,7 +10325,7 @@ MonoBehaviour:
   - group: {fileID: 24300002, guid: b10e1a85025b84e9bac0cf1402c0d317, type: 2}
     name: BGMusic
     clip: {fileID: 8300000, guid: c7bc23ded16d5414e98faf14a97a4f09, type: 3}
-    volume: 0.57
+    volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
@@ -10333,14 +10333,14 @@ MonoBehaviour:
       type: 2}
     name: Cliffhanger
     clip: {fileID: 8300000, guid: 5d4dda652671f44838a7c14e60a6571b, type: 3}
-    volume: 0.47
+    volume: 0.39
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - group: {fileID: 24300002, guid: b10e1a85025b84e9bac0cf1402c0d317, type: 2}
     name: Credits
     clip: {fileID: 8300000, guid: 563b28c43109b4801abcd1181de5675a, type: 3}
-    volume: 0.52
+    volume: 0.46
     pitch: 1
     source: {fileID: 0}
     loop: 1
@@ -10348,7 +10348,7 @@ MonoBehaviour:
       type: 2}
     name: coinUp
     clip: {fileID: 8300000, guid: 1a987359994614c52a6a63bddd00ef80, type: 3}
-    volume: 0.32
+    volume: 0.22
     pitch: 1
     source: {fileID: 0}
     loop: 0

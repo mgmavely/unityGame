@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 4670130540405641982}
   - component: {fileID: 4670130540405641981}
   - component: {fileID: 4670130540405641980}
-  - component: {fileID: 4670130540405641923}
+  - component: {fileID: 7599016481374740083}
+  - component: {fileID: 7599016481374740082}
+  - component: {fileID: 2953845864801322309}
   m_Layer: 0
   m_Name: End
   m_TagString: Untagged
@@ -49,7 +51,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4670130540405641922}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -94,7 +96,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4670130540405641923
+--- !u!54 &7599016481374740083
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670130540405641922}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 1
+--- !u!114 &7599016481374740082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,7 +121,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 4670130540405641922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f542179014234849b2284e4b940c3f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 07b9902ad4f164c7d886950d4fd70f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  rb: {fileID: 7599016481374740083}
+  moveForce: 3000
+--- !u!114 &2953845864801322309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670130540405641922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8433c6a738a5e4fa3b6af464764b6884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

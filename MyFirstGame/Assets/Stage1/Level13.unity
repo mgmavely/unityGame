@@ -2392,31 +2392,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Crash
+  - group: {fileID: 0}
+    name: Crash
     clip: {fileID: 8300000, guid: c6f22502c091847918b8a8c45b5782d8, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: BGMusic
+  - group: {fileID: 0}
+    name: BGMusic
     clip: {fileID: 8300000, guid: c7bc23ded16d5414e98faf14a97a4f09, type: 3}
     volume: 0.4
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - name: Cliffhanger
+  - group: {fileID: 0}
+    name: Cliffhanger
     clip: {fileID: 8300000, guid: 5d4dda652671f44838a7c14e60a6571b, type: 3}
     volume: 0.6
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: Credits
+  - group: {fileID: 0}
+    name: Credits
     clip: {fileID: 8300000, guid: 563b28c43109b4801abcd1181de5675a, type: 3}
     volume: 0.52
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - name: coinUp
+  - group: {fileID: 0}
+    name: coinUp
     clip: {fileID: 8300000, guid: 1a987359994614c52a6a63bddd00ef80, type: 3}
     volume: 0.43
     pitch: 1
@@ -2802,7 +2807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143, y: 273}
+  m_AnchoredPosition: {x: 140, y: 273}
   m_SizeDelta: {x: 120.114746, y: 47.506104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1628447939

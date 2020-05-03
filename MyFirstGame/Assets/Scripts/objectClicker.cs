@@ -23,6 +23,11 @@ public class objectClicker : MonoBehaviour
                         FindObjectOfType<AudioManager>().Play("coinUp");
                         FindObjectOfType<GameManager>().coinCol();
                     }
+                    else if (hit.transform.gameObject.tag == "clickWall")
+					{
+                        Destroy(hit.transform.gameObject);
+                        FindObjectOfType<AudioManager>().Play("Crash");
+                    }
 				}
 			}
 		}
