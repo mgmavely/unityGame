@@ -7,7 +7,8 @@ public class PlayerCollision : MonoBehaviour
     public playerMovement movement;
     void OnCollisionEnter (Collision collisionInfo) 
     {
-        if (collisionInfo.collider.tag == "Obstacle")
+        if (collisionInfo.collider.tag == "Obstacle" ||
+            collisionInfo.collider.tag == "clickWall")
         {
             movement.enabled = false;
             FindObjectOfType<GameManager>().endGame();

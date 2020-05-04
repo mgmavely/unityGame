@@ -304,7 +304,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98904023}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ba6250f4b0174cbb9a61cbddc7ded9c, type: 3}
   m_Name: 
@@ -390,6 +390,17 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontSize
       value: 38
       objectReference: {fileID: 0}
+    - target: {fileID: 5233705421794292616, guid: abe0239f19a4d401999ce753179c2a26,
+        type: 3}
+      propertyPath: m_Text
+      value: '| |'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233705421794292616, guid: abe0239f19a4d401999ce753179c2a26,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 3fbdc3f2089bd4f288ac45fcdd079bcd,
+        type: 3}
     - target: {fileID: 5233705421794292617, guid: abe0239f19a4d401999ce753179c2a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1083,7 +1094,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391ad87c2184d44fe85ca535ad2d815b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levels: {fileID: 7599016481283797254, guid: f1a80f3ddc231461fbaf60110eb374da, type: 3}
+  level_1: {fileID: 7599016481283797254, guid: f1a80f3ddc231461fbaf60110eb374da, type: 3}
+  level_2: {fileID: 9155062203697274546, guid: 0eeffd1314dd940e6925e3ce076af5db, type: 3}
+  level_3: {fileID: 7359922996604284140, guid: 1c42c4b56affb4fbab8bb45503678813, type: 3}
+  level_4: {fileID: 433436825789628316, guid: 6b95a6a236af34be8b789c3c208cfa60, type: 3}
 --- !u!4 &1196749954
 Transform:
   m_ObjectHideFlags: 0

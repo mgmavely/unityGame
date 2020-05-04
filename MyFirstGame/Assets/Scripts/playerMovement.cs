@@ -24,7 +24,7 @@ public class playerMovement : MonoBehaviour
         if ( Input.GetKey("a") ) {
             rb.AddForce(-horizontalForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
-        if ( Input.GetKey(KeyCode.Space) && isGrounded )
+        if ( Input.GetKey(KeyCode.Space) && isGrounded && transform.position.y >=1)
 		{
             isGrounded = false;
             rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
