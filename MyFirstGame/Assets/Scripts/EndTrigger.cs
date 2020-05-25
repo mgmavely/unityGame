@@ -7,16 +7,16 @@ public class EndTrigger : MonoBehaviour
     void OnTriggerEnter () {
         if (gameManager.Pass() && gameManager.endless == false)
         {
-            Deubg.Log("one");
+            Debug.Log("one");
             gameManager.completeLevel();
         } else if (FindObjectOfType<GameManager>().gameHasEnded == false &&
             FindObjectOfType<GameManager>().endless == true)
         {
-            Deubg.Log("two");
+            Debug.Log("two");
             FindObjectOfType<levelGenerator>().Spawn();
         } else
 		{
-            Deubg.Log("three");
+            Debug.Log("three");
             FindObjectOfType<AudioManager>().Play("Crash");
             gameManager.Restart();
 		}
