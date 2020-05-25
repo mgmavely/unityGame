@@ -2,14 +2,12 @@
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-    public bool endless = false;
     public static GameManager instance;
     public bool gameHasEnded = false;
     public float restartDelay = 2f;
     public GameObject completeLevelUI;
     public int coins = 0;
     public int coinsLim = 0;
-
     public void endGame () {
        if (gameHasEnded == false) {
         gameHasEnded = true;

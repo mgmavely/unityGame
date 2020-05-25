@@ -121,26 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &131680716 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4670130540405641922, guid: 7500399eb835643fa8081ccd4b9385da,
-    type: 3}
-  m_PrefabInstance: {fileID: 4670130541502909084}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &131680717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131680716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f542179014234849b2284e4b940c3f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 1798473475}
-  attempts: {fileID: 0}
 --- !u!1001 &198789172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -585,7 +565,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 546743157}
   scoreText: {fileID: 414628427}
-  mod: 1
 --- !u!114 &414628427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +689,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 546743157}
   scoreText: {fileID: 593839517}
-  mod: 1
 --- !u!114 &593839517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,7 +787,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 546743157}
   scoreText: {fileID: 612429374}
-  mod: 1
 --- !u!114 &612429374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,29 +1121,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - group: {fileID: 0}
-    name: Crash
+  - name: Crash
     clip: {fileID: 8300000, guid: c6f22502c091847918b8a8c45b5782d8, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - group: {fileID: 0}
-    name: BGMusic
+  - name: BGMusic
     clip: {fileID: 8300000, guid: c7bc23ded16d5414e98faf14a97a4f09, type: 3}
     volume: 0.4
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - group: {fileID: 0}
-    name: Cliffhanger
+  - name: Cliffhanger
     clip: {fileID: 8300000, guid: 5d4dda652671f44838a7c14e60a6571b, type: 3}
     volume: 0.6
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - group: {fileID: 0}
-    name: Credits
+  - name: Credits
     clip: {fileID: 8300000, guid: 7c153e0ce1f9d4f96894c718120d898d, type: 3}
     volume: 0.52
     pitch: 1
@@ -1561,7 +1534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 546743157}
   scoreText: {fileID: 1087341450}
-  mod: 1
 --- !u!114 &1087341450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2478,7 +2450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 546743157}
   scoreText: {fileID: 2111688123}
-  mod: 1
 --- !u!114 &2111688123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,16 +2803,6 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1798473475}
-    - target: {fileID: 4670130540405641980, guid: 7500399eb835643fa8081ccd4b9385da,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670130540405641981, guid: 7500399eb835643fa8081ccd4b9385da,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4670130540405641983, guid: 7500399eb835643fa8081ccd4b9385da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2895,11 +2856,6 @@ PrefabInstance:
     - target: {fileID: 4670130540405641983, guid: 7500399eb835643fa8081ccd4b9385da,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7599016481374740082, guid: 7500399eb835643fa8081ccd4b9385da,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
