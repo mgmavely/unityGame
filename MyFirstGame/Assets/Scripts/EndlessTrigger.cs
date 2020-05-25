@@ -6,7 +6,8 @@ public class EndlessTrigger : MonoBehaviour
 {
     void OnTriggerEnter()
 	{
-        if (FindObjectOfType<GameManager>().gameHasEnded == false)
+        if (FindObjectOfType<GameManager>().gameHasEnded == false &&
+            FindObjectOfType<GameManager>().endless == true)
         {
             Debug.Log("Trigger");
             FindObjectOfType<levelGenerator>().Spawn();
