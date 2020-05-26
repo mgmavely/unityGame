@@ -681,6 +681,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 740171c3b757243c180ea9396bc79eec, type: 3}
+--- !u!1 &390504681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4670130540405641922, guid: 7500399eb835643fa8081ccd4b9385da,
+    type: 3}
+  m_PrefabInstance: {fileID: 4670130541502909084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &390504682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390504681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f542179014234849b2284e4b940c3f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &445906425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -874,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151, y: 273}
+  m_AnchoredPosition: {x: 149.8, y: 275.6}
   m_SizeDelta: {x: 108.96637, y: 47.506104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526902303
@@ -891,6 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   scoreText: {fileID: 526902304}
+  mod: 1
 --- !u!114 &526902304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,25 +1065,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Crash
+  - group: {fileID: 0}
+    name: Crash
     clip: {fileID: 8300000, guid: c6f22502c091847918b8a8c45b5782d8, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: BGMusic
+  - group: {fileID: 0}
+    name: BGMusic
     clip: {fileID: 8300000, guid: c7bc23ded16d5414e98faf14a97a4f09, type: 3}
     volume: 0.4
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - name: Cliffhanger
+  - group: {fileID: 0}
+    name: Cliffhanger
     clip: {fileID: 8300000, guid: 5d4dda652671f44838a7c14e60a6571b, type: 3}
     volume: 0.6
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: Credits
+  - group: {fileID: 0}
+    name: Credits
     clip: {fileID: 8300000, guid: 7c153e0ce1f9d4f96894c718120d898d, type: 3}
     volume: 0.52
     pitch: 1
@@ -4129,6 +4152,11 @@ PrefabInstance:
       propertyPath: attempts
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4670130540405641981, guid: 7500399eb835643fa8081ccd4b9385da,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4670130540405641983, guid: 7500399eb835643fa8081ccd4b9385da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4137,7 +4165,7 @@ PrefabInstance:
     - target: {fileID: 4670130540405641983, guid: 7500399eb835643fa8081ccd4b9385da,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4670130540405641983, guid: 7500399eb835643fa8081ccd4b9385da,
         type: 3}
@@ -4184,7 +4212,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7599016481374740082, guid: 7500399eb835643fa8081ccd4b9385da, type: 3}
+    - {fileID: 2953845864801322309, guid: 7500399eb835643fa8081ccd4b9385da, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7500399eb835643fa8081ccd4b9385da, type: 3}
 --- !u!1001 &9182228907382219704
 PrefabInstance:

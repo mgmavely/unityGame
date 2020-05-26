@@ -1057,6 +1057,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6440168063670998234, guid: 7500399eb835643fa8081ccd4b9385da,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1798473475}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7500399eb835643fa8081ccd4b9385da, type: 3}
 --- !u!1 &1300505830
@@ -1383,6 +1388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   scoreText: {fileID: 1628447940}
+  mod: 1
 --- !u!114 &1628447940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,25 +1652,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Crash
+  - group: {fileID: 0}
+    name: Crash
     clip: {fileID: 8300000, guid: c6f22502c091847918b8a8c45b5782d8, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: BGMusic
+  - group: {fileID: 0}
+    name: BGMusic
     clip: {fileID: 8300000, guid: c7bc23ded16d5414e98faf14a97a4f09, type: 3}
     volume: 0.4
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - name: Cliffhanger
+  - group: {fileID: 0}
+    name: Cliffhanger
     clip: {fileID: 8300000, guid: 5d4dda652671f44838a7c14e60a6571b, type: 3}
     volume: 0.6
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: Credits
+  - group: {fileID: 0}
+    name: Credits
     clip: {fileID: 8300000, guid: 7c153e0ce1f9d4f96894c718120d898d, type: 3}
     volume: 0.52
     pitch: 1
@@ -1867,7 +1877,7 @@ PrefabInstance:
     - target: {fileID: 9182228906835542217, guid: 3697770a588bb49649ed655794255644,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 9182228906835542221, guid: 3697770a588bb49649ed655794255644,
         type: 3}

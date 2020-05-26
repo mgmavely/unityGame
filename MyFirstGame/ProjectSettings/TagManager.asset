@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Clickable
   - clickWall
+  - skipWall
   layers:
   - Default
   - TransparentFX

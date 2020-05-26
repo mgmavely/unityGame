@@ -21,8 +21,11 @@ EditorBuildSettings:
     path: Assets/Stage1/Level04.unity
     guid: 6cf8dbfc73e6c45a99da7577c982c9fc
   - enabled: 1
-    path: Assets/Stage1/Level05.unity
+    path: Assets/Stage1/Level05.0.unity
     guid: ac4ef4d3b73ff499d9007b3cd2ce1173
+  - enabled: 1
+    path: Assets/Stage1/Level5.1.unity
+    guid: 55f5c4f047e3d411790a449fd1be37e4
   - enabled: 1
     path: Assets/Stage1/Level06.unity
     guid: 84b405a742c164d949b5f587cfab7fec
@@ -71,6 +74,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stage1/Level21.unity
     guid: 1d433482b50854aa4b3c921de543a5d6
+  - enabled: 1
+    path: Assets/Stage1/Level22.unity
+    guid: 9caedaa51b2f64d28b1e565e00c6808d
+  - enabled: 1
+    path: Assets/Stage1/Level23.unity
+    guid: 6ac745bf73698422f9a594d742732a1f
   - enabled: 1
     path: Assets/Stage1/Credits.unity
     guid: 5a58b64bdd61444488768fb6c3856f0c

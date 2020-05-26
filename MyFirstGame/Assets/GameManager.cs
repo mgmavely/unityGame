@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
+    public bool endless = false;
     public static GameManager instance;
     public bool gameHasEnded = false;
     public float restartDelay = 2f;
@@ -14,17 +15,27 @@ public class GameManager : MonoBehaviour
         Invoke("Restart", restartDelay);
         
        }
-   } 
-   public void completeLevel () {
+   }
+    public void nextGame()
+    {
+
+        Invoke("NextLevel", restartDelay);
+
+    }
+    public void completeLevel () {
        completeLevelUI.SetActive(true);
     }
 
    public void NextLevel ()
 	{
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    } 
+    }
+   public void DoubleLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
 
-   public void Restart () {
+    public void Restart () {
        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
    }
    public void endMusic ()

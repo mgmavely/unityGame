@@ -13,8 +13,12 @@ public class PlayerCollision : MonoBehaviour
             movement.enabled = false;
             FindObjectOfType<GameManager>().endGame();
             FindObjectOfType<AudioManager>().Play("Crash");
-        }
-        else if (collisionInfo.collider.tag == "Ground")
+        } else if (collisionInfo.collider.tag == "skipWall")
+        {
+            movement.enabled = false;
+            FindObjectOfType<GameManager>().nextGame();
+            FindObjectOfType<AudioManager>().Play("Crash");
+        } else if (collisionInfo.collider.tag == "Ground")
         {
             movement.isGrounded = true;
         }
